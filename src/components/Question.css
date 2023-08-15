@@ -1,0 +1,59 @@
+/* Question.css */
+
+.question {
+    margin-bottom: 24px;
+    padding: 16px;
+    border-radius: 8px;
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.question h3 {
+    font-size: 22px;
+    margin-bottom: 16px;
+}
+
+.options {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.option {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.2s ease, transform 0.1s ease;
+}
+
+.option:hover {
+    background-color: #f2f2f2;
+    transform: scale(1.02);
+}
+
+.option input[type="radio"] {
+    display: none;
+}
+
+.option-label {
+    font-size: 18px;
+    margin-left: 10px;
+    font-weight: bold;
+}
+
+.result {
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+.correct-answer {
+    color: #28a745;
+    font-weight: bold;
+}
+
+.incorrect-answer {
+    color: #dc3545;
+    font-weight: bold;
+}

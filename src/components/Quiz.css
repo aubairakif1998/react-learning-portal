@@ -1,0 +1,60 @@
+/* Quiz.css */
+
+.quiz {
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.question {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.options {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.option {
+    display: flex;
+    align-items: center;
+    margin-bottom: 12px;
+    padding: 12px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.2s ease, transform 0.1s ease;
+}
+
+.option:hover {
+    background-color: #f2f2f2;
+    transform: scale(1.02);
+}
+
+.option input[type="radio"] {
+    display: none;
+}
+
+.option-label {
+    font-size: 18px;
+    margin-left: 10px;
+    font-weight: bold;
+}
+
+.result {
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+.correct-answer {
+    color: #28a745;
+    font-weight: bold;
+}
+
+.incorrect-answer {
+    color: #dc3545;
+    font-weight: bold;
+}
